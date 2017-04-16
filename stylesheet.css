@@ -1,6 +1,6 @@
 body {
 	font-family: Helvetica, Arial, sans-serif;
-	font-size: 20px;
+	font-size: 18px;
 }
 
 section{
@@ -9,10 +9,24 @@ section{
 	padding: 5px 10px;
 }
 
+.container {
+	display: inline-block;
+	max-width: 60%
+	margin: 10px 25px;
+	padding: 20px;
+}
 
 .navbar li {
 	display: inline;
 	text-decoration: none;
+}
+
+.navbar a  {
+	text-decoration: none;
+}
+
+.navbar li:hover {
+	background-color: tomato;
 }
 
 .navbar {
@@ -23,9 +37,8 @@ section{
 .blue {
 	background-color:#4DD7FA;
 	border: solid 1px blue;
-	justify-content: space-between;
-	flex-flow: column;
-	max-width: 100%
+	float: left;
+	max-width: 50%
 	height: 100%;
 	padding: 5px;
 }
@@ -47,11 +60,12 @@ section{
 	border: solid 3px #785616;
 	background-color: #FEFAC0;
 	flex-flow: column;
+	float: right;
+	max-width: 50%
 
 }
 
 
-.yellow li {
-	display: inline-block;
+.yellow li {;
 	color: #785616;
 }
