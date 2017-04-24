@@ -1,6 +1,9 @@
 body {
 	font-family: Helvetica, Arial, sans-serif;
 	font-size: 20px;
+}
+
+section{
 	font-size: 18px;
 }
 
@@ -13,6 +16,13 @@ section {
 
 .navbar li {
 	display: inline;
+<<<<<<< HEAD
+	text-decoration: none;
+}
+
+.navbar {
+	background-color:  #FFB4B0;
+	border: solid 1px salmon;
 	justify-content: center;
 }
 
@@ -60,6 +70,13 @@ section {
     font-size: 16px;
     margin: 4px 2px;
 }
+
+
+#container {
+	display: flex;
+}
+
+
 
 .listOfSongs {
 	border: solid 2px #785616;
