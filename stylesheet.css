@@ -3,6 +3,12 @@ body {
 	font-size: 20px;
 }
 
+<<<<<<< HEAD
+=======
+section{
+	font-size: 18px;
+}
+>>>>>>> e524332f069f0655a72a1e21d7d4592c1ddeeadd
 
 section {
 	display: flex;
@@ -74,6 +80,19 @@ section {
 }
 
 
+<<<<<<< HEAD
+=======
+
+.listOfSongs {
+	border: solid 2px #785616;
+	background-color: #FEFAC0;
+	flex-flow: row;
+	max-width: 60%;
+	margin: 4px;
+
+}
+
+>>>>>>> e524332f069f0655a72a1e21d7d4592c1ddeeadd
 .yellow li {
 	color: #785616;
 	display: inline;
